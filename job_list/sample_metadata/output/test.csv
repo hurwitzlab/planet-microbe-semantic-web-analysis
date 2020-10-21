@@ -1,0 +1,11 @@
+experiment,instrument,run,spots,bases,size,published
+SRX482825[accn],Illumina Genome Analyzer IIx,SRR1185413,"6,967,070",2.1G,1.2Gb,2014-03-08
+SRX482825[accn],Illumina Genome Analyzer IIx,SRR1185413,"6,967,070",2.1G,1.2Gb,2014-03-08
+SRX480925[accn],Illumina Genome Analyzer IIx,SRR1182512,"5,345,414",1.6G,986.3Mb,2015-07-22
+SRX480925[accn],Illumina Genome Analyzer IIx,SRR1182512,"5,345,414",1.6G,986.3Mb,2015-07-22
+SRX483565[accn],Illumina Genome Analyzer IIx,SRR1186214,"1,330,024",401.7M,246Mb,2014-03-10
+SRX483565[accn],Illumina Genome Analyzer IIx,SRR1186214,"1,330,024",401.7M,246Mb,2014-03-10
+SRX500867[accn],Illumina Genome Analyzer IIx,SRR1204581,"9,688,114",2.9G,1.7Gb,2014-03-25
+SRX500867[accn],Illumina Genome Analyzer IIx,SRR1204581,"9,688,114",2.9G,1.7Gb,2014-03-25
+SRX495672[accn],Illumina MiSeq,SRR1199270,"4,492,801",1.4G,825.9Mb,2014-03-19
+SRX495672[accn],Illumina MiSeq,SRR1199270,"4,492,801",1.4G,825.9Mb,2014-03-19
