@@ -1,34 +1,28 @@
 #!/bin/bash
 
 #split
-#sed -n '1,10p' input/input_full.csv > input/test.csv
+sed -n '1,100p' input/input_full.csv > input/1.csv
+sed -n '101,200p' input/input_full.csv > input/2.csv
+sed -n '201,300p' input/input_full.csv > input/3.csv
+sed -n '301,400p' input/input_full.csv > input/4.csv
+sed -n '401,500p' input/input_full.csv > input/5.csv
+sed -n '501,600p' input/input_full.csv > input/6.csv
+sed -n '601,700p' input/input_full.csv > input/7.csv
+sed -n '701,800p' input/input_full.csv > input/8.csv
+sed -n '801,900p' input/input_full.csv > input/9.csv
+sed -n '901,1000p' input/input_full.csv > input/10.csv
+sed -n '1001,1100p' input/input_full.csv > input/11.csv
+sed -n '1101,1200p' input/input_full.csv > input/12.csv
+sed -n '1201,1300p' input/input_full.csv > input/13.csv
+sed -n '1301,1400p' input/input_full.csv > input/14.csv
+sed -n '1401,1500p' input/input_full.csv > input/15.csv
+sed -n '1501,1600p' input/input_full.csv > input/16.csv
+sed -n '1601,1700p' input/input_full.csv > input/17.csv
+sed -n '1701,1800p' input/input_full.csv > input/18.csv
+sed -n '1801,1900p' input/input_full.csv > input/19.csv
+sed -n '1901,2002p' input/input_full.csv > input/20.csv
 
-# sed -n '1,100p' input/input_full.csv > input/1.csv
-# sed -n '101,200p' input/input_full.csv > input/2.csv
-# sed -n '201,300p' input/input_full.csv > input/3.csv
-# sed -n '301,400p' input/input_full.csv > input/4.csv
-# sed -n '401,500p' input/input_full.csv > input/5.csv
-# sed -n '501,600p' input/input_full.csv > input/6.csv
-# sed -n '601,700p' input/input_full.csv > input/7.csv
-# sed -n '701,800p' input/input_full.csv > input/8.csv
-# sed -n '801,900p' input/input_full.csv > input/9.csv
-# sed -n '901,1000p' input/input_full.csv > input/10.csv
-# sed -n '1001,1100p' input/input_full.csv > input/11.csv
-# sed -n '1101,1200p' input/input_full.csv > input/12.csv
-# sed -n '1201,1300p' input/input_full.csv > input/13.csv
-# sed -n '1301,1400p' input/input_full.csv > input/14.csv
-# sed -n '1401,1500p' input/input_full.csv > input/15.csv
-# sed -n '1501,1600p' input/input_full.csv > input/16.csv
-# sed -n '1601,1700p' input/input_full.csv > input/17.csv
-# sed -n '1701,1800p' input/input_full.csv > input/18.csv
-# sed -n '1801,1900p' input/input_full.csv > input/19.csv
-# sed -n '1901,2002p' input/input_full.csv > input/20.csv
-
-
-
-# get experiment numbers
-# python3 trace_to_sra.py -i input/test.csv -o exp/test.csv
-
+## get experiment numbers
 python3 trace_to_sra.py -i input/1.csv -o exp/1.csv
 python3 trace_to_sra.py -i input/2.csv -o exp/2.csv
 python3 trace_to_sra.py -i input/3.csv -o exp/3.csv
@@ -50,9 +44,7 @@ python3 trace_to_sra.py -i input/18.csv -o exp/18.csv
 python3 trace_to_sra.py -i input/19.csv -o exp/19.csv
 python3 trace_to_sra.py -i input/20.csv -o exp/20.csv
 
-
-# get full metadata
-# python3 parse_sra.py -i exp/test.csv -o output/test.csv
+## get full metadata
 
 python3 parse_sra.py -i exp/1.csv -o output/1.csv
 python3 parse_sra.py -i exp/2.csv -o output/2.csv
