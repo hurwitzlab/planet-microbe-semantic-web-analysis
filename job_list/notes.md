@@ -17,31 +17,31 @@ eukaryotes > 2 um
 Has filter sizes 2 - 156 um, and 0.2 - 2 um, taking the latter as the prokaryotic fraction.
 
 
-Applied `Aquatic Sample Minimum Filter Fractionation Size Threshold ` from `0.2 - max` and `Aquatic Sample Maximum Filter Fractionation Size Threshold` from `min - 2` to get 24 samples with 40 files.
+Applied `Aquatic Sample Minimum Filter Fractionation Size Threshold ` from `0.2 - max` and `Aquatic Sample Maximum Filter Fractionation Size Threshold` from `min - 2` to get 24 samples with 40 files. 24 unique IDs.
 
 ## Amazon River Metagenomes
 
 Has filter sizes 2 - 297 um, and 0.2 - 2 um, taking the latter as the prokaryotic fraction.
 
-Applied `Aquatic Sample Minimum Filter Fractionation Size Threshold ` from `0.2 - max` and `Aquatic Sample Maximum Filter Fractionation Size Threshold` from `min - 2` to get 24 samples with 38 files.
+Applied `Aquatic Sample Minimum Filter Fractionation Size Threshold ` from `0.2 - max` and `Aquatic Sample Maximum Filter Fractionation Size Threshold` from `min - 2` to get 24 samples with 38 files. 24 unique IDs.
 
 
 ## BATS Chisholm
 
-https://www.ncbi.nlm.nih.gov/bioproject/385855 unclear if these samples are from the prokaryotic fraction. Add them for now but this needs to be double checked, removed if we can't determine it.  
+https://www.ncbi.nlm.nih.gov/bioproject/385855 unclear if these samples are from the prokaryotic fraction. Add them for now but this needs to be double checked, removed if we can't determine it. there are 62 samples with 124 files. 62 unique IDs.
 
 ## GOS
 
 Has filter sizes 0.1 - 0.8, 0.8 - 3, and 3 - 20 um, taking the 0.1 - 0.8um and 0.8 - 3um fractions
 
-Applied `Aquatic Sample Minimum Filter Fractionation Size Threshold ` from `min - 3` and `Aquatic Sample Maximum Filter Fractionation Size Threshold` from `min - 3` to get 51 samples with 53 files.
+Applied `Aquatic Sample Minimum Filter Fractionation Size Threshold ` from `min - 3` and `Aquatic Sample Maximum Filter Fractionation Size Threshold` from `min - 3` to get 51 samples with 53 files. All layout single so I suspect there should be 53 unique samples as the unique list indicates.
 
 
 ## HOT ALOHA time/depth series
 
 Has filter sizes 0.02 - 0.2um (274 samples) and 0.2 - 1.6um (272 samples), taking the latter. Many samples are missing maxium filter values, but only taking those with a Minimum filter value we have 274 samples. My understanding is that there are only those two filter fractions (0.02 - 0.2 and 0.2 - 1.6um) thus taking only min 0.2 will get the prokaryotic fraction.
 
-Applied `Aquatic Sample Minimum Filter Fractionation Size Threshold ` from `0.2 - max` to get 274 samples with 559 files.
+Applied `Aquatic Sample Minimum Filter Fractionation Size Threshold ` from `0.2 - max` to get 274 samples with 559 files. 332 unique IDs.
 
 Retrieving from the Planet Microbe database, sample `SAMN05991650` was listed twice with the same file `SRR5002342.fastq.gz` so the duplicate was removed.
 
@@ -50,14 +50,14 @@ Retrieving from the Planet Microbe database, sample `SAMN05991650` was listed tw
 
 Samples don't have maximum filter values, but it has minimum filter values.
 
-Applied `Aquatic Sample Minimum Filter Fractionation Size Threshold ` from `0.2 - max` to get 68 samples with 135 files.
+Applied `Aquatic Sample Minimum Filter Fractionation Size Threshold ` from `0.2 - max` to get 68 samples with 135 files. 68 unique sample Ids.
 
 
 ## HOT DeLong
 
 all 42 samples are 0.22 - 1.6um.
 
-Applied `Aquatic Sample Minimum Filter Fractionation Size Threshold ` from `min - 0.22` and `Aquatic Sample Maximum Filter Fractionation Size Threshold` from `1.6 - max` to get 42 samples with 44 files.
+Applied `Aquatic Sample Minimum Filter Fractionation Size Threshold ` from `min - 0.22` and `Aquatic Sample Maximum Filter Fractionation Size Threshold` from `1.6 - max` to get 42 samples with 44 files. 44 unique sample Ids.
 
 ## HOT DeLong Metatranscriptomes
 
@@ -65,7 +65,7 @@ only 8 samples, all have filter min 0.22 and the rest are split half and half wi
 
 Applied `Aquatic Sample Minimum Filter Fractionation Size Threshold ` from `min - 0.22` and `Aquatic Sample Maximum Filter Fractionation Size Threshold` from `min - 2` to get 4 samples with 20 files.
 
-Furthur refined this down to only 7 WGS METAGENOMIC files
+Furthur refined this down to only 7 WGS METAGENOMIC files. 7 unique sample IDs.
 
 
 ## OSD
@@ -74,7 +74,7 @@ OSD's minimum filtration was conducted through a 0.22um filter by default, (ther
 
 In order to filter the few samples with the larger filter fraction, we applied `Aquatic Sample Maximum Filter Fractionation Size Threshold` from `4 - max` to get the 2 samples with 12 files, which need to be removed from the list of files derived from the selection of all OSD files. There are a total of 162 samples and 934 files.
 
-Removing the WGS METAGENOMIC files: ERR770974_1.fastq.gz, ERR770974_2.fastq.gz, ERR770973_1.fastq.gz, ERR770973_2.fastq.gz, as well as all files of `strategy` `AMPLICON`, a total of 295 files remained.  
+Removing the WGS METAGENOMIC files: ERR770974_1.fastq.gz, ERR770974_2.fastq.gz, ERR770973_1.fastq.gz, ERR770973_2.fastq.gz, as well as all files of `strategy` `AMPLICON`, a total of 295 files remained. 148 unique sample IDs.
 
 ## Tara Oceans
 
@@ -118,8 +118,8 @@ Applied `Aquatic Sample Minimum Filter Fractionation Size Threshold ` from `0.4 
 
 Applied `Aquatic Sample Minimum Filter Fractionation Size Threshold ` from `0.7 - 0.9` and `Aquatic Sample Maximum Filter Fractionation Size Threshold` from `2 - 4` to get 31 samples with 202 files.
 
-Finally we removed all `METAGENOMIC	AMPLICON` and `METATRANSCRIPTOMIC	RNA-Seq` files, 708 files remained.
+Finally we removed all `METAGENOMIC	AMPLICON` and `METATRANSCRIPTOMIC	RNA-Seq` files, 708 files remained. 367 unique sample IDs.
 
 ## Stats
 
-In total there are `937` unique WGS METAGENOMIC samples corresponding to `2002` files. Most are paired end sequencing, although some have three corresponding read files, the rest have layout single.
+Using the planet microbe search interface a total of `2002` files corresponding to `1129` unique Sample ID's were found. Most are paired end sequencing, although some have three corresponding read files, the rest have layout single. The genomic content of these files totals `12410.8` G basepairs or `12.4` terabasepairs of sequence data.
