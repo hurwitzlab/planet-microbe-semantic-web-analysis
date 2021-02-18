@@ -2,11 +2,11 @@ export CWD=$PWD
 export SCRIPT_DIR="$PWD/scripts"
 ###### #Parameters for the run
 # list of irods paths
-export LIST="/xdisk/bhurwitz/mig2020/rsgrps/bhurwitz/alise/my_data/PM_Kai/test_download/list_dumb.txt"
+export LIST="/xdisk/bhurwitz/mig2020/rsgrps/bhurwitz/kai/planet-microbe-semantic-web-analysis/job_submission/test_list.txt"
 # number of lines per pieces of lists
 export NB_SPLITS="2"
 # output directory
-export OUT_DIR="/xdisk/bhurwitz/mig2020/rsgrps/bhurwitz/alise/my_data/PM_Kai/test_download"
+export OUT_DIR="/xdisk/bhurwitz/mig2020/rsgrps/bhurwitz/kai/planet-microbe-semantic-web-analysis/job_submission/test_download"
 
 # User informations
 export QUEUE="standard"
