@@ -1,0 +1,2 @@
+/iplant/home/shared/planetmicrobe/sra/ERR986585.fastq.gz
+/iplant/home/shared/planetmicrobe/sra/ERR986587.fastq.gz
